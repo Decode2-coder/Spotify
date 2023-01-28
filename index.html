@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favorite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src = "logo.png" alt = "Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class = "container">
+        
+        <div class="songList">
+            <h1>ROCKSTAR</h1>
+            <div class ="songItemContainer">
+                <div class = "songItem">
+                    <img src = "tumHoe.jpg" alt = "1">
+                    <span>Tum ho</span>
+                    <span class="songListPlay"><span class="timeStamp">05:17<i id = "0" class="far songItemPlay fa-solid  fa-play"></i></span></span>
+                </div>
+                <div class = "songItem">
+                    <img src = "https://img.youtube.com/vi/2mWaqsC3U7k/0.jpg" alt = "1">
+                    <span>Phir Se Ud Chala</span>
+                    <span class="songListPlay"><span class="timeStamp">04:31<i id = "1" class="far songItemPlay fa-solid  fa-play"></i></span></span>
+                </div><div class = "songItem">
+                    <img src = "https://i.scdn.co/image/ab67616d0000b27306e5b12eca32ade5a3874b6c" alt = "1">
+                    <span>Kun Faya</span>
+                    <span class="songListPlay"><span class="timeStamp">07:53<i id = "2" class="far songItemPlay fa-solid  fa-play"></i></span></span>
+                </div><div class = "songItem">
+                    <img src = "https://i.ytimg.com/vi/_kOzFMR9Hys/maxresdefault.jpg" alt = "1">
+                    <span>Jo Bhi Main</span>
+                    <span class="songListPlay"><span class="timeStamp">04:35<i id="3" class="far songItemPlay fa-solid  fa-play"></i></span></span>
+                </div><div class = "songItem">
+                    <img src = "https://lyricsguides.com/wp-content/uploads/2020/06/Nadaan-Parindey-Lyrics-RockstarMohit-Chauhan.jpg" alt = "1">
+                    <span>Nadan Parindey</span>
+                    <span class="songListPlay"><span class="timeStamp">06:26<i id = "4" class="far songItemPlay fa-solid  fa-play"></i></span></span>
+                </div><div class = "songItem">
+                    <img src = "https://i1.sndcdn.com/artworks-000072199602-fdgax4-t500x500.jpg" alt = "1">
+                    <span>Sadda Haq</span>
+                    <span class="songListPlay"><span class="timeStamp">06:05<i id = "5" class="far songItemPlay fa-solid  fa-play"></i></span></span>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="songBannner"></div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min = "0" value = "0" max = "100">
+        <div class="icons">
+            <!---fontawesome icons-->
+            <i class="fa-solid fa-3x fa-step-backward" id = "previous"></i>
+            <i class="fa-solid fa-3x fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-step-forward" id = "next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id = "gif">Phir Se Ud Chala - Mohit Chauhan
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/4d8eca8e5f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
